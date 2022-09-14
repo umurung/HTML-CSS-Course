@@ -1,0 +1,83 @@
+/*Changing the color blues of the background*/
+body {
+    background-color: rgb(3, 17, 43);
+}
+/* Modifying the header part*/
+header {
+    background-color: white;
+    padding:0ch;
+    text-align: left;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color:black;
+    padding: 3px 6px; 
+    font-size: 15px; 
+
+    float: inline-start;
+}
+/* modifying logo*/
+div logo{
+    float:right;
+    padding: 0;
+    margin: 0;
+}
+/* chanage the postion of image from center to the right*/
+  .banner img{
+    float: right;
+    size: 40px;
+  }
+/*modifying navigation bar */
+  nav{
+    background-color: white;
+    padding:0;
+    position:static;
+    top:108px;
+    float: inline-end;
+}
+ /* Style the links inside the navigation bar */
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 ;
+}
+/* inline=block section inside the top navigation */
+nav li{
+    width: 10%;
+    display:inline-block;
+    font-size: 24px;
+}
+/* Add a color to the active/current link */
+nav li a{
+    text-decoration: none;
+    color:#725c5c
+}
+nav li a.join{
+    background-color: blue;
+    text-decoration: underline;
+    color: white;
+    border-radius: 5px;
+    
+}
+/* modifying the article, by giving the color and size*/
+main{
+    max-width:100%;
+    width:1200px; 
+    margin:80px auto;
+    padding:0 40px; 
+    box-sizing: border-box;
+  }
+  article h2{
+      color: #4b4b4b;
+      font-size: 55px;
+  }
+  article p{
+      line-height: 1em;
+      color:#4b4b4b;
+      font-size: 30px;
+  }
+
+
